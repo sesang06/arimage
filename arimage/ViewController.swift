@@ -8,6 +8,7 @@
 import UIKit
 import SceneKit
 import ARKit
+import SwiftUI
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
@@ -21,19 +22,19 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
-        
-        // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // Set the scene to the view
-        sceneView.scene = scene
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Create a session configuration
-        let configuration = ARWorldTrackingConfiguration()
+        let configuration = ARImageTrackingConfiguration()
+
+        if let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: Bundle.main) {
+            configuration.trackingImages = referenceImages
+        }
+
 
         // Run the view's session
         sceneView.session.run(configuration)
@@ -56,7 +57,73 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         return node
     }
 */
+
     
+
+    private func getMatchingUIImage(name: String) -> UIImage? {
+        switch name {
+        case "moving_castle":
+            return #imageLiteral(resourceName: "moving_castle_image")
+        case "cat_bus":
+            return #imageLiteral(resourceName: "cat_bus_image")
+        case "zelda":
+            return #imageLiteral(resourceName: "zelda_image")
+        default:
+            return nil
+        }
+        return nil
+    }
+
+
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard let imageAnchor = anchor as? ARImageAnchor else {
+            return
+        }
+        guard let name = imageAnchor.referenceImage.name else {
+            return
+        }
+        guard let image = self.getMatchingUIImage(name: name) else {
+            return
+        }
+        DispatchQueue.main.async {
+
+            let planeNode = self.generateNode(anchor: imageAnchor)
+            node.addChildNode(planeNode)
+
+            let textNode = self.generateNode(anchor: imageAnchor)
+            self.createTextView(for: textNode)
+            node.addChildNode(textNode)
+
+        }
+    }
+
+    private func generateNode(anchor: ARImageAnchor) -> SCNNode {
+        let plane = SCNPlane(width: anchor.referenceImage.physicalSize.width, height: anchor.referenceImage.physicalSize.height)
+
+
+        let planeNode = SCNNode(geometry: plane)
+        planeNode.eulerAngles.x = -.pi / 2
+        return planeNode
+    }
+
+    func createTextView(for node: SCNNode) {
+
+        let textViewController = UIHostingController(rootView: TextView())
+        textViewController.willMove(toParent: self)
+        
+        self.addChild(textViewController)
+        textViewController.view.frame = .init(x: 0, y: 0, width: 350, height: 200)
+        self.view.addSubview(textViewController.view)
+
+        let material = SCNMaterial()
+        textViewController.view.isOpaque = false
+        material.diffuse.contents = textViewController.view
+
+        node.geometry?.materials = [material]
+
+        textViewController.view.backgroundColor = .clear
+    }
+
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
         

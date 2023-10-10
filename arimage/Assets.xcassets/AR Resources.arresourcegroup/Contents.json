@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "cat_bus.arreferenceimage"
+    },
+    {
+      "filename" : "moving_castle.arreferenceimage"
+    },
+    {
+      "filename" : "zelda.arreferenceimage"
+    }
+  ]
+}

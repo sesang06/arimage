@@ -16,6 +16,7 @@
 		06F866762AD582B500C208D1 /* arimageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F866752AD582B500C208D1 /* arimageTests.swift */; };
 		06F866802AD582B500C208D1 /* arimageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8667F2AD582B500C208D1 /* arimageUITests.swift */; };
 		06F866822AD582B500C208D1 /* arimageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F866812AD582B500C208D1 /* arimageUITestsLaunchTests.swift */; };
+		06F8668F2AD5A06600C208D1 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8668E2AD5A06600C208D1 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		06F8667B2AD582B500C208D1 /* arimageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arimageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F8667F2AD582B500C208D1 /* arimageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arimageUITests.swift; sourceTree = "<group>"; };
 		06F866812AD582B500C208D1 /* arimageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arimageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06F8668E2AD5A06600C208D1 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				06F866652AD582B100C208D1 /* Main.storyboard */,
 				06F866682AD582B500C208D1 /* Assets.xcassets */,
 				06F8666A2AD582B500C208D1 /* LaunchScreen.storyboard */,
+				06F8668E2AD5A06600C208D1 /* TextView.swift */,
 			);
 			path = arimage;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F8668F2AD5A06600C208D1 /* TextView.swift in Sources */,
 				06F866642AD582B100C208D1 /* ViewController.swift in Sources */,
 				06F866602AD582B100C208D1 /* AppDelegate.swift in Sources */,
 			);
@@ -450,6 +454,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +485,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

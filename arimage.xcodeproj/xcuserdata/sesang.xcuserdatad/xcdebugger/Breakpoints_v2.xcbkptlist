@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CF9CE12A-7344-490C-A223-FAEABB5D0FA5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC6221A4-3A37-4F85-AED2-0ADEF54A651F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC6221A4-3A37-4F85-AED2-0ADEF54A651F - a9e12a01760658b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "FC6221A4-3A37-4F85-AED2-0ADEF54A651F - a9e12a01760658b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5FE555A-1185-44A4-901E-545B4F65FD8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getMatchingUIImage(name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5FE555A-1185-44A4-901E-545B4F65FD8A - 5337e86eab05b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.getMatchingUIImage(name: Swift.String) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "F5FE555A-1185-44A4-901E-545B4F65FD8A - 5337e86eab05b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.getMatchingUIImage(name: Swift.String) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD171EEA-668F-477D-81C3-A144EA106E32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "getMatchingUIImage(name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD171EEA-668F-477D-81C3-A144EA106E32 - 5337e86eab05b6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.getMatchingUIImage(name: Swift.String) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "FD171EEA-668F-477D-81C3-A144EA106E32 - 5337e86eab05b6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.getMatchingUIImage(name: Swift.String) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D328836C-29E6-4314-BCB1-7635AF5CDB70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "renderer(_:didAdd:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D328836C-29E6-4314-BCB1-7635AF5CDB70 - 894b65b61ec64e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.renderer(_: __C.SCNSceneRenderer, didAdd: __C.SCNNode, for: __C.ARAnchor) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "D328836C-29E6-4314-BCB1-7635AF5CDB70 - 894b65b61ec64e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.renderer(_: __C.SCNSceneRenderer, didAdd: __C.SCNNode, for: __C.ARAnchor) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37CAA580-D2C6-414D-A81B-E3CAA3034871"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "renderer(_:didAdd:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37CAA580-D2C6-414D-A81B-E3CAA3034871 - 894b65b61ec64e3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.renderer(_: __C.SCNSceneRenderer, didAdd: __C.SCNNode, for: __C.ARAnchor) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "414">
+               </Location>
+               <Location
+                  uuid = "37CAA580-D2C6-414D-A81B-E3CAA3034871 - 894b65b61ec64e3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.renderer(_: __C.SCNSceneRenderer, didAdd: __C.SCNNode, for: __C.ARAnchor) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78BC0DAC-B3F7-4BBF-9B44-7BDBAAE8289E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "renderer(_:didAdd:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78BC0DAC-B3F7-4BBF-9B44-7BDBAAE8289E - 894b65b61ec64981"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.renderer(_: __C.SCNSceneRenderer, didAdd: __C.SCNNode, for: __C.ARAnchor) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "78BC0DAC-B3F7-4BBF-9B44-7BDBAAE8289E - 894b65b61ec64981"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arimage.ViewController.renderer(_: __C.SCNSceneRenderer, didAdd: __C.SCNNode, for: __C.ARAnchor) -&gt; ()"
+                  moduleName = "arimage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sesang/Documents/arimage/arimage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D14AB34E-65EA-44AD-A4D6-C1D8593C6C18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "arimage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "renderer(_:didAdd:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
